@@ -61,7 +61,7 @@ Agora, sempre que você quiser mostrar que Album está escutando no iTunes, bast
 
 E e resultado (no seu site/blog):
 
-![Capa do Album no site/blog!](http://craftmind.files.wordpress.com/2012/11/screen-shot-2012-11-13-at-7-13-39-pm.png)
+![Capa do Album no site/blog.](http://craftmind.files.wordpress.com/2012/11/screen-shot-2012-11-13-at-7-13-39-pm.png)
 
 ##Download
 
