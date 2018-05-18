@@ -80,3 +80,4 @@ E e resultado (no seu site/blog):
 ##Referências
 
 * [http://www.macosxtips.co.uk/geeklets/collections/itunes-seperate-info-mail-infos-/](href="http://www.macosxtips.co.uk/geeklets/collections/itunes-seperate-info-mail-infos-/)
+
