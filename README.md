@@ -64,6 +64,7 @@ E e resultado (no seu site/blog):
 ![Capa do Album no site/blog.](http://craftmind.files.wordpress.com/2012/11/screen-shot-2012-11-13-at-7-13-39-pm.png)
 
 
+
 ##Download
 
 Última versão (master): [BlogThisTrack!](https://github.com/cfbastarz/blogthistrack/blob/master/BlogThisTrack.applescript)
