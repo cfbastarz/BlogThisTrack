@@ -2,7 +2,7 @@
 --AppleScript original em http://www.macosxtips.co.uk/geeklets/collections/itunes-seperate-info-mail-infos-/
 --Créditos para http://www.macosxtips.co.uk (usuário http://www.macosxtips.co.uk/geeklets/user/profile/csoul/) e craftmind.wordpress.com (usuário http://craftmind.wordpress.com/about/)
 --Linguagem: AppleScript (compilador v.2.2.3)
---Data: 13/11/2012
+--First crack: 13/11/2012
 
 --A variável "myPath" define onde se encontra a pasta "BlogThisTrack" (para o script funcionar, ela deve ser criada manualmete):
 set myPath to ((path to home folder) as text) & "Dropbox:Public:BlogThisTrack:"
@@ -14,9 +14,11 @@ set defaultPic to POSIX path of myPath & "default.png"
 if running of application "iTunes" then
 	--Na estrutura abaixo, literalmente é dito ao programa iTunes executar as seguintes ações:
 	tell application "iTunes"
+		--Recupera o nome do artista:
+		set artistName to artist of current track
 		--Define-se a variável "artData" para receber a informação da capa do Album da música que está sendo executada no iTunes:
 		set artData to data of artwork 1 of current track
-		--Define-se a variável "fileRef" que irá abrir atrituir à variável "artworkiTunes" (que aponta para o arquivo alvo iTunes.png) a informação da capa do Album:
+		--Define-se a variávdoel "fileRef" que irá abrir atrituir à variável "artworkiTunes" (que aponta para o arquivo alvo iTunes.png) a informação da capa do Album:
 		set fileRef to (open for access artworkItunes with write permission)
 		--Utiliza-se o método try:
 		--Caso o iTunes esteja tocando alguma música e esta possui uma capa de Album definida, a informação da capa do Album será escrita na variável : fileRef":
@@ -43,3 +45,6 @@ else
 		close defaultData
 	end tell
 end if
+
+--Executa o script Shell que irá colocar o nome do artista na capa do Album:
+do shell script ("/Users/carlos/Library/iTunes/Sctipts/imagem.ksh" & artistName)
