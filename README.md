@@ -1,12 +1,12 @@
 # BlogThisTrack!
 
-Sabendo das possibilidades da linguagem AppleScript, como por exemplo, controlar o iTunes e outros programas através da linha de comando, decidi colocar na sidebar do meu blog uma área com a capa do disco que eu estou escutando no iTunes. O ***BlogThisTrack!*** faz isso em conjunto com o Dropbox e é bem simples.
+Sabendo das possibilidades da linguagem AppleScript, como por exemplo, controlar o iTunes e outros programas através da linha de comando, decidi colocar na sidebar do meu blog uma área com a capa do disco que eu estou escutando no iTunes. O **BlogThisTrack!** faz isso em conjunto com o Dropbox e é bem simples.
 
 ## Uso
-- Você vai precisar do Dropbox;
-- E do iTunes (a princípio é necessário estar no Mac OS X para executar o script).
+* Você vai precisar do Dropbox;
+* E do iTunes (a princípio é necessário estar no Mac OS X para executar o script).
 
-A ideia é a seguinte: utilizar um link público do dropbox para disponibilizar uma imagem (a capa do album) no seu site/blog. O AppleScript vai servir para recuperar a capa do Album da música que está sendo tocada no iTunes e colocá-la em um pasta pública do Dropbox; o Dropbox, por sua vez, fornece um link público que será colocado no site. Mas como manter o mesmo link se a imagem é atualizada sempre que uma novo Album estiver tocando? Simples: o link (url) aponta para um link simbólico na pasta pública do Dropbox! Nada como uma bela gambiarra :)
+A ideia é a seguinte: utilizar um link público do dropbox para disponibilizar uma imagem (a capa do album) no seu site/blog. O AppleScript vai servir para recuperar a capa do Album da música que está sendo tocada no iTunes e colocá-la em um pasta pública do Dropbox; o Dropbox, por sua vez, fornece um link público que será colocado no site. Mas como manter o mesmo link se a imagem é atualizada sempre que uma novo Album estiver tocando? Simples: o link (url) aponta para um link simbólico na pasta pública do Dropbox! Nada como uma bela gambiarra 🙂
 
 O código AppleScript utilizado para recuperar a capa do Album que está tocando no iTunes e copiar para a pasta pública no Dropbox, segue mais abaixo e você deve colocá-lo em:
 
@@ -47,7 +47,7 @@ Feito isto, no site, escolha algum lugar (como uma barra lateral) em que será c
 <img src="https://link.que.o.dropbox.criou/albumart.png" />
 ```
 
-Sinta-se livre para incrementar, adicionando uma borda ou mesmo limitando o tamanho da imagem - assim todas as capas poderão ter o mesmo tamanho ;)
+Sinta-se livre para incrementar, adicionando uma borda ou mesmo limitando o tamanho da imagem - assim todas as capas poderão ter o mesmo tamanho 😉
 
 Se você estiver no wordpress, e caso você não tenha acesso ao código-fonte do seu site/blog, a melhor forma de fazer a inserção desse código - e é aí que a coisa fica esperta!, é usar a widget de texto.
 
@@ -63,9 +63,10 @@ E e resultado (no seu site/blog):
 
 ![Capa do Album no site/blog.](http://craftmind.files.wordpress.com/2012/11/screen-shot-2012-11-13-at-7-13-39-pm.png)
 
+
 ##Download
 
-[BlogThisTrack!](https://github.com/cfbastarz/blogthistrack/blob/master/BlogThisTrack.applescript)
+Última versão (master): [BlogThisTrack!](https://github.com/cfbastarz/blogthistrack/blob/master/BlogThisTrack.applescript)
 
 ##Dicas
 
