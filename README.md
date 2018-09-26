@@ -63,22 +63,20 @@ E e resultado (no seu site/blog):
 
 ![Capa do Album no site/blog.](http://craftmind.files.wordpress.com/2012/11/screen-shot-2012-11-13-at-7-13-39-pm.png)
 
-
-
-##Download
+## Download
 
 Última versão (master): [BlogThisTrack!](https://github.com/cfbastarz/blogthistrack/blob/master/BlogThisTrack.applescript)
 
-##Dicas
+## Dicas
 
 * Como o "BlogThisTrack" utiliza o iTunes, tire proveito disso: utilize-o para manter as capas dos seus Albuns atualizadas, assim não correrá o risco de não ter nenhuma imagem para mostrar;
 * Há outros AppleScripts que podem ser utilizados para ajudar a manter a sua biblioteca de músicas organizada e atualizada, veja [aqui](http://dougscripts.com/itunes/).
 
-##Observações
+## Observações
 
 * Este método depende do Dropbox. Para que a atualização das capas do Album no seu site/blog funcione, é necessário que o Dropbox esteja funcionando.
 
-##Referências
+## Referências
 
 * [http://www.macosxtips.co.uk/geeklets/collections/itunes-seperate-info-mail-infos-/](href="http://www.macosxtips.co.uk/geeklets/collections/itunes-seperate-info-mail-infos-/)
 
