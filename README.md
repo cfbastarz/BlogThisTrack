@@ -35,11 +35,11 @@ $ ln -s iTunes.png albumart.png
 
 Observe que o link "albumart.png" será atualizado sempre que o script AppleScript for executado.
 
-![Exemplo dos arquivos que ficam dentro da pasta BlogThisTrack, dentro da pasta pública do Dropbpox. Observe que o arquivo albumart.png é um link simbólico para o arquivo de imagem iTunes.png.](http://craftmind.files.wordpress.com/2012/11/screen-shot-2012-11-13-at-7-18-01-pm.png)
+![Exemplo dos arquivos que ficam dentro da pasta BlogThisTrack, dentro da pasta pública do Dropbpox. Observe que o arquivo albumart.png é um link simbólico para o arquivo de imagem iTunes.png.](./figs/screen-shot-2012-11-13-at-7-18-01-pm.png)
 
 Agora uma parte importante, o link: quando se coloca arquivos dentro da pasta Public do Dropbox, é possível obter um link público para qualquer arquivo. Para fazer isto, pelo Finder, dê um clique de "dois dedos" (clique sobre o arquivo utilizando dois dedos, assim você terá acesso ao menu de contexto do Finder) sobre o arquivo, aponte para o menu do Dropbox e selecione a opção "Copy Public Link":
 
-![Obtendo o link público que será usado para linkar a imagem no seu site/blog.](http://craftmind.files.wordpress.com/2012/11/screen-shot-2012-11-13-at-8-09-44-pm.png)
+![Obtendo o link público que será usado para linkar a imagem no seu site/blog.](./figs/screen-shot-2012-11-13-at-8-09-44-pm.png)
 
 Feito isto, no site, escolha algum lugar (como uma barra lateral) em que será colocada a capa do Album. Na área escolhida, coloque o código:
 
@@ -51,17 +51,17 @@ Sinta-se livre para incrementar, adicionando uma borda ou mesmo limitando o tama
 
 Se você estiver no wordpress, e caso você não tenha acesso ao código-fonte do seu site/blog, a melhor forma de fazer a inserção desse código - e é aí que a coisa fica esperta!, é usar a widget de texto.
 
-![Insira uma widget de texto na área que você quiser e insira o código acima.](http://craftmind.files.wordpress.com/2012/11/screen-shot-2012-11-13-at-7-14-16-pm.png)
+![Insira uma widget de texto na área que você quiser e insira o código acima.](./figs/screen-shot-2012-11-13-at-7-14-16-pm.png)
 
 Insira uma widget de texto na área que você quiser e insira o código acima.
 
 Agora, sempre que você quiser mostrar que Album está escutando no iTunes, basta executar o AppleScript que a capa do Album será atualizada no seu site/blog!
 
-![Executando o AppleScript BlogThisTrack dentro do iTunes.](http://craftmind.files.wordpress.com/2012/11/screen-shot-2012-11-13-at-7-08-29-pm.png)
+![Executando o AppleScript BlogThisTrack dentro do iTunes.](./figs/screen-shot-2012-11-13-at-7-08-29-pm.png)
 
 E e resultado (no seu site/blog):
 
-![Capa do Album no site/blog.](http://craftmind.files.wordpress.com/2012/11/screen-shot-2012-11-13-at-7-13-39-pm.png)
+![Capa do Album no site/blog.](./figs/screen-shot-2012-11-13-at-7-13-39-pm.png)
 
 ## Download
 
